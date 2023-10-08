@@ -24,7 +24,7 @@ main{
     background-color: var(--backgroundColor);
 }
 
-li a{
+li, a{
     text-decoration-style: none;
     color: var(--paragraphText);
 }
@@ -100,20 +100,23 @@ p{
 
 #projectOne{
     grid-area: projectOne;
-    background-image: url();
+    background-image: url(../images/marketing-website.png);
 }
 
 #projectTwo{
     grid-area: projectTwo;
+    background-image: url(../images/nasa-Q1p7bh3SHj8-unsplash.jpg);
 }
 
 #projectThree{
     grid-area: projectThree;
+    background-image: url(../images/nasa-Q1p7bh3SHj8-unsplash.jpg);
 }
 
 #projectOne,
 #projectTwo,
 #projectThree {
+    background-size: cover;
     font-size: 20px;
     display: flex;
     align-items: end;
@@ -123,8 +126,14 @@ p{
     text-align: center;
     color: azure;
     background-color: black;
-    border: solid 5px;
-    border-color:aliceblue;
+    border-color: var(--paragraphText);
+    border: solid 2px;
+}
+
+#projectOne:hover,
+#projectTwo:hover,
+#projectThree:hover{
+    transform: scale(1.05);
 }
 
 /* Responsive grid layout for mobile screens */
