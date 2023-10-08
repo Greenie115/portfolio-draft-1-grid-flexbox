@@ -52,7 +52,9 @@ p{
 }
 
 /* Subtitle styling */
-.subtitle{
+
+
+.subTitle{
     display: flex;
     background-color: aqua;
     padding: 10%;
@@ -61,9 +63,11 @@ p{
     height: 50vh;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/nasa-Q1p7bh3SHj8-unsplash.jpg);
-    color: var(--paragraphText)
+    background-image: url(../images/world-binaryimg.jpg);
+    background-size: cover;
 }
+
+
 
 /* Profile img styling */
 .profile-img{
