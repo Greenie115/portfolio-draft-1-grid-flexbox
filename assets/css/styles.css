@@ -25,7 +25,10 @@ main{
 }
 
 li, a{
-    text-decoration-style: none;
+    margin: 10px;;
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
     color: var(--paragraphText);
 }
 
@@ -52,8 +55,6 @@ p{
 }
 
 /* Subtitle styling */
-
-
 .subTitle{
     display: flex;
     background-color: aqua;
@@ -66,8 +67,6 @@ p{
     background-image: url(../images/world-binaryimg.jpg);
     background-size: cover;
 }
-
-
 
 /* Profile img styling */
 .profile-img{
@@ -140,8 +139,33 @@ p{
     transform: scale(1.05);
 }
 
-/* Responsive grid layout for mobile screens */
+/* Contact Me section */
+.contactMeSection{
+    display: block;
+    background-color: var(--backgroundColor);
+    margin: 0;
+    padding: 0;
+}
 
+.contactMeLinks{
+    background-color: var(--backgroundColor);
+    margin: 0;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: var(--headerColor);
+    padding: 2%;
+    margin: 0;
+    background-color: var(--backgroundColor);
+}
+
+/* Responsive grid layout for mobile screens */
 @media only screen and (max-width: 600px){
     .projects{
         grid-template-areas:
