@@ -5,12 +5,18 @@ The aim of this portfolio is to showcase my level of understanding of web develo
 
 This is achieved by using the ```grid-template-area``` property in the CSS code like so, 
 
-(screenshot of grid-template-area) 
+![Copy of the CSS property](./assets/images/Screenshot%202023-10-11%20173801.png)
 
 In order to make the web app responsive I have used ```@media``` to target a screen size of less than 600 pixels. Once this condition is met in the browser, the web app will respond by changing the layout of the Work section into single-line rows as shown below.
 
-(screenshot of before and after @media change)
+Above 800 pixels
+![Screenshot of @media queries being used abouve 800px](./assets/images/Screenshot%202023-10-11%20174617.png)
 
+Below 800 pixels
+![Screenshot of @media queries being used below 800px](./assets/images/Screenshot%202023-10-11%20174635.png)
+
+CSS code 
+![Code snippet of css being used](./assets/images/Screenshot%202023-10-11%20174651.png)
 
 ## Installation
 
@@ -22,7 +28,7 @@ To navigate the portfolio you can use the Navbar at the top of the page to jump 
 
 The "CV" button on the Navbar downloads a ```.txt```file containing "Not a CV - test" This is only to demonstrate my understanding of how to allow certain ```<a>``` elements to download a file to your local device. 
 
-(screenshot of .txt file)
+![Not-a-CV content](./assets/images/Screenshot%202023-10-11%20174719.png)
 
 ## Contributing
 
